@@ -1,0 +1,31 @@
+
+.Logo {
+ display: flex;
+ align-items: center;
+ font-weight: 700;
+}
+
+svg, img {
+ width: 16px;
+ height: 16px;
+ margin-right: 10px;
+}
+.toFixed {
+ position: fixed;
+ top: 0;
+ right: 0;
+ left:0;
+}
+
+.HeaderList {
+ display: flex;
+}
+.HeaderList a {
+ text-decoration: dotted;
+}
+
+.active {
+ cursor: default;
+ pointer-events: none;
+ opacity: 0.8;
+}

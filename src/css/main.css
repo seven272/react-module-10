@@ -1,0 +1,26 @@
+@import './helpers/_helpers';
+@import '../components/header/header.css';
+/* .wrapper {
+ background-color: black;
+}
+.wrapper p {
+ color: white
+} */
+
+.ui-html,
+.ui-body {
+  font-family: "Montserrat Alternates", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif,
+    "Segoe UI Emoji", "Segoe UI Symbol" !important;
+}
+
+.ui-body {
+  --ui-primary-color: #cc3843 !important;
+}
+
+.ui-button {
+  pointer-events: auto !important;
+}
+
+
+

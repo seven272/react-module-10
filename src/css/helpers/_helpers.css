@@ -1,0 +1,21 @@
+/*
+  Helpers by Tailwind css
+  doc - https://tailwindcss.com/docs/
+*/
+
+
+@import './flex';
+
+
+@import './paddings';
+
+
+@import './margins';
+
+
+@import './text-size';
+
+
+@import './text-align';
+
+@import './other-style';
