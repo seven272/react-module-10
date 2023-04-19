@@ -1,10 +1,15 @@
 import React from 'react';
+//components
+import Icon from 'components/icon'
 import {Container} from 'layouts';
 import { ReactComponent as LogoIcon } from 'assets/img/logo.svg'
+// import { ReactComponent as BagIcon } from 'assets/img/bag.svg'
 import propTypes from 'prop-types';
 import classNames from 'classnames';
 import { NavLink } from "react-router-dom";
 import { nameSite } from '_config.js'
+
+
 const menuLinks = [
   {
     title: 'Home',
@@ -14,6 +19,14 @@ const menuLinks = [
     title: 'About',
     alias: '/about'
   },
+  // {
+  //   title: <BagIcon />,
+  //   alias: '/checkout'
+  // },
+  {
+    title: <Icon />,
+    alias: '/checkout'
+  },
 ]
 
 const menuItem = menuLinks.map((item) => {
@@ -21,7 +34,7 @@ const menuItem = menuLinks.map((item) => {
     <li key={item.alias}>
       <NavLink to={item.alias}>
         <div className='ui-button isLink'>{item.title}</div>
-        </NavLink>
+      </NavLink>
     </li>
   )
 })
@@ -36,6 +49,7 @@ const Header = ({isLogo, isFixed, className, ...attrs}) => {
       isFixed
     }
   )
+
   return (
     <header className={classes} {...attrs}>
     <Container className="test" title='12345'>
