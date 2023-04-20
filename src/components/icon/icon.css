@@ -1,0 +1,15 @@
+.ui-badge {
+ position: absolute;
+ top: 0;
+ right: 4px;
+ /* centered */
+ width: 1rem;
+ height: 1rem;
+ line-height: 1rem;
+ /* - */
+ font-size: 12px;
+ border-radius: 50%;
+ background-color: var(--ui-primary-color);
+ color: var(--ui-inverse-color);
+ text-align: center;
+}
